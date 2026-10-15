@@ -7,28 +7,6 @@ SentinelScan crawls web pages, discovers URLs from HTML and
 JavaScript, classifies discovered resources, and generates
 structured JSON reports.
 
-## Project Structure
-
-sentinel_scan/
-├── scanner/
-│   ├── __init__.py
-│   ├── __main__.py
-│   ├── http/
-│   │   ├── __init__.py
-│   │   └── client.py
-│   ├── discovery/
-│   │   ├── __init__.py
-│   │   ├── crawler.py
-│   │   ├── url_utils.py
-│   │   ├── js_discovery.py
-│   │   └── classifier.py
-│   └── reporting/
-│       ├── __init__.py
-│       └── json_report.py
-├── reports/
-├── requirements.txt
-├── README.md
-└── .gitignore
 
 ## Features
 
