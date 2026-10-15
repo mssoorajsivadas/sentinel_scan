@@ -7,6 +7,7 @@ SentinelScan crawls web pages, discovers URLs from HTML and
 JavaScript, classifies discovered resources, and generates
 structured JSON reports.
 
+![image](https://github.com/mssoorajsivadas/sentinel_scan/blob/c21bd7ab9adeabf70bdd327e64b5585c90935c04/sentinel_scan.png)
 
 ## Features
 
@@ -41,5 +42,6 @@ structured JSON reports.
 Clone the repository:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/mssoorajsivadas/sentinel_scan.git
 cd sentinel_scan
+python run.py (target)
